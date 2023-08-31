@@ -1,4 +1,4 @@
-# practico_django_sp1
+# Practicando con Django
 ![](./tutorial_django.png)
 
 
