@@ -42,8 +42,8 @@ body {
 }
 
 .input {
-    background: rebeccapurple;
+    background: wheat;
     padding: 30px;
     text-align: center;
-    display: inline-block;
+    display: block;
 }
