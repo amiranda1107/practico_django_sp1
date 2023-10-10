@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {% load static %}
 
 <!DOCTYPE html>
@@ -42,3 +43,34 @@
     
 </body>
 </html>
+=======
+<!-- <nav>
+    <ul>
+        <li>
+            <a href="/">Home</a>
+        </li>
+        <li>
+            <a href="/about">About</a>
+        </li>
+        <li>
+            <a href="/projects">Projects</a>
+        </li>
+        <li>
+            <a href="/tasks">Tasks</a>
+        </li>
+        <li>
+            <a href="/create_task">Create task</a>
+        </li>
+    </ul>
+</nav> -->
+<header>
+    <a href="{% url 'home' %}">Home</a> |
+    <a href="{% url 'about' %}">About</a> |
+    <a href="{% url 'projects' %}">Projects</a> |
+    <a href="{% url 'tasks' %}">Tasks</a> |
+    <a href="{% url 'create_task' %}">Create task</a>
+</header>
+
+{% block content %} 
+{% endblock content %}
+>>>>>>> ecd47b59b1c5a36150c1ad69a43e84b1f973dd4f
